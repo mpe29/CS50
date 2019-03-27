@@ -10,6 +10,7 @@ https://cs50.harvard.edu/web/2019/spring/notes/0/
 Sycronizez working together process over the internet 
 Good for testing changes and experiment
 Maintains version control 
-
-
-
+DOM = Document Object Model 
+	this is the structure of the HTML or JSON etc
+CSS = Cascading style sheet
+	good for adding a bit of style
