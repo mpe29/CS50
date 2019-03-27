@@ -14,3 +14,9 @@ DOM = Document Object Model
 	this is the structure of the HTML or JSON etc
 CSS = Cascading style sheet
 	good for adding a bit of style
+	# in CSS refers to ID
+		must be UNIQUE otherwise it just like class reference .
+	. in CSS refers to class
+		may not be UNIQUE
+	you can include both an ID and a CLASS to some tag
+GitHub Pages can enable you deploy to the internet!
