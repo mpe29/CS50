@@ -9,12 +9,12 @@
 
 .success {
     @extend %message;
-    background-color: green;
+    background-color: red;
 }
 
 .warning {
     @extend %message;
-    background-color: orange;
+    background-color: red;
 }
 
 .error {
