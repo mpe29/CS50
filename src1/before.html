@@ -7,11 +7,15 @@
                 content: "\21d2  Click here: ";
                 font-weight: bold;
             }
+            b::before {
+            content: " Click here: ";
+            font-weight: bold;
+            }
         </style>
     </head>
     <body>
         <ul>
-            <li><a href="#">one link</a></li>
+            <li><b href="#">one link</b></li>
             <li><a href="#">another link</a></li>
             <li><a href="#">third link</a></li>
         </ul>
