@@ -1,9 +1,9 @@
 # CS50w-edX: Web Programming
 Online course through edX and Harvard with focus on web programming.
+Brian Yu: brian@cs50.harvard.edu
 
 Introduced to loads of different aspects to web development such as:
 -- SQL, Django, Servers, Git, CSS, HTML, JavaScript, security etc --
-
 
 # Lecture 0: Git - Version Control [26 March 2019]
 https://cs50.harvard.edu/web/2019/spring/notes/0/
@@ -20,3 +20,6 @@ CSS = Cascading style sheet
 		may not be UNIQUE
 	you can include both an ID and a CLASS to some tag
 GitHub Pages can enable you deploy to the internet!
+
+# Lecture 1: HTTP and CSS - Web Dev [27 March 2019]
+https://cs50.harvard.edu/web/2019/spring/notes/1/
