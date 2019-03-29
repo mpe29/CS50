@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokemon!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="project0.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+    	<div class="container">
+            <div class="row">
+                <div class="col-11">
+                	<h1 id="Intro">
+                		"Welcome to the Wonderful World of Pokemon..."
+                	</h1>
+                </div>
+            </div>
+
+            <div class="row">
+            	<div class="col-6">
+                	<h1 id="The beginning">
+						"I am Professor Oak... You have come a long way... and yet your journey has yet to begin."                   
+					</h1>  
+				</div>
+				<div class="col-4">
+                    <img id= "The_Man_the_Myth" class="img-fluid" class="rounded" src="profoak1.jpeg" alt="Responsive image" width=500px>
+                </div>
+           	</div>
+
+           	<div class="row">
+		            <div class="col-4">
+		            	<div class="row">
+			          		<form class= "form">
+			                Pokemon Traininer Level:
+			                </form>
+		            	</div>
+		                <div class="row">
+		                  	<form>
+				                <input class= "form" name="Experience" type="radio" value="High"> League Member
+				                <input class= "form" name="Experience" type="radio" value="Med"> Experienced
+				                <input class= "form" name="Experience" type="radio" value="Low"> Newbie
+		                  	</form>
+		            	</div>
+
+		          	</div>
+
+		          	<div class="col-3">
+		                <div class="row">
+					        <form>
+			                <input class= "form" name="name" type="text" placeholder="Trainer's Name">
+			                </form>
+		            	</div>
+		            </div>
+
+		           	<div class="col-3">
+		           		<form id="Region">
+			                <input class= "form" name="Region" list="Regions" placeholder="Trainer's Home">
+			                <datalist id="Regions">
+			                    <option value="Westeros">
+			                    <option value="Bravos">
+			                    <option value="Botswana">
+			                    <option value="The Gold Coast">
+			                    <option value="Fusterlandia">
+			                </datalist>
+		                </form>
+		            </div>
+		    </div>
+		    <div>
+					<div class="col-11">
+		           	<form align="middle">
+						<input class= "MyButton" type="button" value="Shall we begin?" onclick="window.location.href='file:///Users/michaeleaton/CS50/project0/select.html'" />
+					</form>
+		            </div>
+		            
+           </div>
+       </div>
+    </body>
+</html>
+
+
+     	
+				
