@@ -6,7 +6,25 @@
 		<link rel="stylesheet" href="project0.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <style>
+ 		           /* Create four equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 25%;
+		}
 
+		/* On screens that are 992px wide or less, go from four columns to two columns */
+		@media screen and (max-width: 992px) {
+		  .column {
+		    width: 50%;
+		  }
+		}
+
+		/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .column {
+		    width: 100%;
+		  }
+		}
         </style>
     </head>
     <body>
@@ -48,7 +66,7 @@
 
 		          	</div>
 
-		          	<div class="col-3">
+		          	<div class="col-sm-">
 		                <div class="row">
 					        <form>
 			                <input class= "form" name="name" type="text" placeholder="Trainer's Name">
@@ -56,7 +74,7 @@
 		            	</div>
 		            </div>
 
-		           	<div class="col-3">
+		           	<div class="col-sm-">
 		           		<form id="Region">
 			                <input class= "form" name="Region" list="Regions" placeholder="Trainer's Home">
 			                <datalist id="Regions">
