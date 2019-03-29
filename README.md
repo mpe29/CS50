@@ -23,3 +23,41 @@ GitHub Pages can enable you deploy to the internet!
 
 # Lecture 1: HTTP and CSS - Web Dev [27 March 2019]
 https://cs50.harvard.edu/web/2019/spring/notes/1/
+Git features to know include:
+	push, pull, checkout, commit -m, commit -am, branch, branch []
+	Branching:
+		New branches are entire new clones of the repository not just a single file. 
+		However GIT does this in a unique way by not copying everything but rather 
+		logs changes and wokrs backwards to generate old versions.
+		Also when the term ORIGIN comes up it generally refers to the master repository
+	Remote: 
+		git fetch is used to get an updated version of the master/origin repo on GitHUB
+		thus Origin and Origin/Master are not the same thing. One may be further in from
+		of others.
+	Fork: 
+		This is a non invasive branching for generally open source 
+	Pull requests:
+		Ask someone to pull thier stuff into the master 
+Linking HTML:
+	href[]
+With CSS:
+	ol li
+		this reference without the , operator creates a focus on descendents rather than 
+		selecting both ol and li. ol = ordered list and li = list item.
+	ol > li selects only immediate childred!
+Pseudo classes ":"" 
+	activated with HOVERING for example
+Pseudo elements "::"
+	SELECTION for example can change colours when selected or hilighted
+	also one can use BEFORE and AFTER	
+Responsive Design: Making sure it looks good accross platfroms, screens etc.
+	Media Query - lets you specifc min and max extents of the page 
+Bootstrap: Style without to teadiousness yaay
+https://getbootstrap.com/
+Variables in CSS: SASS
+	Browsers cannot reas SASS directly and so SCSS files need to be designed and then 
+	compiled by SASS in terminal into a CSS file that the final HTML file can read
+	and so eaxch time the SASS file is changes you need to compile it to see results
+	Sass cna also watch the file so you dont need to recompile each time
+	
+
