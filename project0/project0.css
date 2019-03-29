@@ -1,0 +1,49 @@
+.MyButton {
+	width: 100%;
+	padding: 15px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 120%;
+	background: #222222;
+	color: #fff;
+	border-radius: 10px;
+	}
+
+.MyButton:hover {
+	color: #E3E113;
+	background: #000;
+
+	}
+		
+.form {
+    	color = #B84A55;
+    	text-align: center;
+    	padding: 1px;
+    	font-size: 25px;
+    }
+
+.h1{
+		text-align: middle;
+	}
+
+.row > div {
+	    padding: 20px;
+	    margin: 10px;
+	    background-color: #ffffff;
+	}
+
+#selectorlist {
+	text-align: left;
+    font-size: 30px;
+    color: black;
+	}
+
+.ul {
+        color: green;
+    }
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightgreen;
+  }
+}
