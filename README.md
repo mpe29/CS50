@@ -60,4 +60,19 @@ Variables in CSS: SASS
 	and so eaxch time the SASS file is changes you need to compile it to see results
 	Sass cna also watch the file so you dont need to recompile each time
 	
+# Lecture 2: FLask [27 March 2019]
+https://cs50.harvard.edu/web/2019/spring/notes/2/
+Discussing python and server communications with HTTP communications 
+Specifically using FLASK as a microframework
+http://flask.pocoo.org/docs/1.0/quickstart/
+http://flask.pocoo.org/docs/dev/cli/
+	When running a flask server, it is essential to use the EXPORT command to ensure that the specific file is being targeted. Then one can use the FLASK RUN command.
+	Also DEBUGGER mode is good for constant update to the resver. 
+
+# Lecture 3: SQL [5 April 2019]
+SQL:
+	race conditions and SQL injection can be a way to take a advantage of you DB
+	use transactions
+	SQLAlchemy: Connects SQL and python
+
 
