@@ -68,11 +68,16 @@ http://flask.pocoo.org/docs/1.0/quickstart/
 http://flask.pocoo.org/docs/dev/cli/
 	When running a flask server, it is essential to use the EXPORT command to ensure that the specific file is being targeted. Then one can use the FLASK RUN command.
 	Also DEBUGGER mode is good for constant update to the resver. 
+	Global internal server errors should be considered.
+	Try catches are also useful to prevent failure 
+	
 
 # Lecture 3: SQL [5 April 2019]
 SQL:
 	race conditions and SQL injection can be a way to take a advantage of you DB
 	use transactions
-	SQLAlchemy: Connects SQL and python
+	SQLAlchemy: Connects SQL and python. Third part ting
+	fetchall: imports info from DB
+
 
 
